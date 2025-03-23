@@ -1,7 +1,0 @@
-cargo:rerun-if-changed=C:\Users\paste\Documents\Projets\Rust\rust_os\Cargo.toml
-cargo:rustc-link-search=native=C:\Users\paste\Documents\Projets\Rust\rust_os\target\bootimage\bootloader\x86_64-bootloader\release\build\bootloader-7dd7f0019830c94e\out
-cargo:rustc-link-lib=static=kernel_bin-rust_os
-cargo:rerun-if-env-changed=KERNEL
-cargo:rerun-if-env-changed=KERNEL_MANIFEST
-cargo:rerun-if-changed=C:\Users\paste\Documents\Projets\Rust\rust_os\target\x84_64-rust_os\debug\rust_os
-cargo:rerun-if-changed=build.rs
