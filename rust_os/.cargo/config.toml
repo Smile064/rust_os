@@ -4,3 +4,9 @@ build-std-features = ["compiler-builtins-mem"]
 
 [build]
 target = "x84_64-rust_os.json"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
